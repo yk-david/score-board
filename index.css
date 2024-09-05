@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Orbitron, sans-serif;
+}
+
+.playground {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+    background: #1b244a;
+    color: #9aabd8;
+    width: 675px;
+    height: 485px;
+}
+
+.board {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* HOME SECTION */
+.home {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#home-score {
+    width: 155px;
+    height: 120px;
+    font-size: 90px;
+    color: #f94f6d;
+    background: #080001;
+    text-align: center;
+}
+
+
+/* GUEST SECTION */
+.guest {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.guest h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#guest-score {
+    width: 155px;
+    height: 120px;
+    font-size: 90px;
+    color: #f94f6d;
+    background: #080001;
+    text-align: center;
+}
+
+
+/* COMMON -- SCORE BUTTONS */
+.score-btns {
+    width: 155px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#home-point1, #home-point2, #home-point3, 
+#guest-point1, #guest-point2, #guest-point3 {
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+    background: #1b244a;
+    color: #9aabd8;
+    border: 1px solid #9aabd8;
+    border-radius: 5px;
+}
+
+#home-point1:hover, #home-point2:hover, #home-point3:hover, 
+#guest-point1:hover, #guest-point2:hover, #guest-point3:hover {
+    cursor: pointer;
+    border: 1px solid #f94f6d;
+}
+
+
+/* NEW GAME BUTTON */
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+#new-game {
+    background: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: none;
+    text-shadow: 3px 3px grey;
+}
+
+#new-game:hover {
+    background: grey;
+    cursor: pointer;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="index.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class='playground'>
+    <div class="board">
+
+      <!-- HOME SECTION -->
+      <section class="home">
+        <h1>Home</h1>
+        <div id='home-score'>0</div>
+        <div class='score-btns'>
+          <button id='home-point1' onclick='scoreHome1()'>+1</button>
+          <button id='home-point2' onclick='scoreHome2()'>+2</button>
+          <button id='home-point3' onclick='scoreHome3()'>+3</button>
+        </div>
+      </section>
+
+      <!-- GUEST SECTION -->
+      <section class="guest">
+        <h1>Guest</h1>
+        <div id='guest-score'>0</div>
+        <div class='score-btns'>
+          <button id='guest-point1' onclick='scoreGuest1()'>+1</button>
+          <button id='guest-point2' onclick='scoreGuest2()'>+2</button>
+          <button id='guest-point3' onclick='scoreGuest3()'>+3</button>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- NEW GAME BUTTON -->
+    <div class='btn-container'>
+      <button id='new-game' onclick='newGame()'>NEW GAME</button>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
